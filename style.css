@@ -102,13 +102,42 @@ body {
   align-items: center;
   justify-content: center;
 }
+.checklist {
+  display: inline-block;
+  width: 1920px;
+  height: 720px;
+}
 .checklist .home_01_img {
   width: 588px;
   height: 444px;
   align-items: flex-start;
   margin-left: 360px;
 }
-
+.checklist a{
+  width : 72px;
+  height: 25px;
+  color: #3692FF;
+  font-family: Pretendard;
+  font-weight: 700;
+  size: 18px;
+  line-height: 25.2px;
+}
+.checklist h1{
+  font-family: Pretendard;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+  letter-spacing: 2%;
+  color: #374151;
+}
+.checklist p{
+  font-family: Pretendard;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 8%;
+  color: #374151;
+}
 /* 
 @media (min-width:1920px){
   .navbar {
