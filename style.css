@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: ROKAF sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 1920px;
+  height: 70px;
+  background-color: #FFFFFF;
+  border: 0px 0px 1px 0px;
+  justify-content: space-between;
+
+}
+.navbar .group{
+  display: flex;
+  align-items: center;
+  width: fixed;
+  height: 51px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.navbar img {
+
+  width: 40px;
+  height: 40.14px;
+  margin-top: 5.02px;
+  margin-bottom: 11.18px;
+}
+.navbar .title {
+
+  color: #3692FF;
+  font-family: ROKAF sans-serif;
+  font-size: 25.63px;
+  font-weight: 700;
+  width: 103px;
+  height: 35px;
+  margin-top: 9.76px;
+  text-decoration-line: none;
+}
+.navbar .login_button {
+  width: 128px;
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+  padding: 12px 20px 12px 20px;
+  gap: 10px;
+  background-color: #3692FF;
+  background-size: 1920px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  align-items: center;
+  background-color: skyblue;
+  background-size: 100%;
+  /* display: flex;
+  align-items: center; */
+}
+.info .helper{
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.info .home_top_img {
+  width: 996px;
+  height: 447px;
+  top: 93px;
+  margin-left: 701px;
+  align-items: flex-end;
+}
+.info .label{
+  width: 357px;
+  height: 200px;
+  margin-left: 360px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.info h1 {
+  display: flex;
+  width: 295px;
+  height: 112px;
+
+}
+.info .items_button {
+  width: 357px;
+  height: 56px;
+  border-radius: 40px;
+  border: none;
+  padding: 0;
+  gap: 10px;
+  background-color: #3692FF;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checklist .home_01_img {
+  width: 588px;
+  height: 444px;
+  align-items: flex-start;
+  margin-left: 360px;
+}
+
+/* 
+@media (min-width:1920px){
+  .navbar {
+    width: 100%
+  }
+} */
+
